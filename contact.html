@@ -1,0 +1,105 @@
+<DOCTYPE! html>
+<html lang="en">
+<head>
+<meta charset = "utf-8">
+<title>GRP2 Accountants::Contact</title>
+<link rel ="stylesheet" href="grp2.css">
+<script src = "grp2.js"></script>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+</head>
+
+<body id = "wrapper">
+
+	<header><!--HTML5 structural element -->
+	<strong>&nbsp;&nbsp;GRP2 Accountants</strong><!-- heading element -->
+	</header>
+	<!-- horizontal navigation -->  
+	<nav><!--HTML5 structural element-->
+	<ul><!--unordered list-->
+		<li><a href="index.html" title="home">Home</a></li>
+		<li><a href="about.html" title="aboutus">About Us</a></li>
+		<li><a href="services.html" title="services">Our Services</a>
+		<!--<br>
+			<ul>
+			<br>
+				<li><a href="pricetable.html" title= "prices">Prices</a></li>
+				<li><a href="grp3video.html" title = "xero">Why XERO</a></li>
+				
+           </ul>
+		</li>-->
+		<li><a href="contact.html" title="contact">Contact</a></li>
+	</ul>
+	</nav>
+<main>
+<aside class = "position"> <!--Aside element using float left-->
+<p class = "style1"><em>Open on weekends - Book an appointment !<br>
+Just leave a message !<br>
+<u>&nbsp;Services Provided via:</u><br>
+Onsite (Bay Area)<br>Offsite<br>Remote Access</em></p>
+<br class = "clearright">
+</aside>
+<!-- unordered list which has list-style-elements replaced by appropriate image icons-->
+<section class = "test9">
+	<ul class = "no_bullet">
+		<li class = "phone" title = "Contact number"><strong>(408)-111-1111</strong></li>
+		<li class = "email" title = "Email address"><a href = "mailto:grp2accounants.com" title="Email us at"><strong>info@grp2.com</strong></a></li>
+		<li class = "hours" title = "Opening hours"><strong>Opening Hours: Monday to Friday : 9am to 5pm</strong></li>
+	</ul>
+	<br class = "clearright">
+	<hr class = "style13">
+	<h3 class = "test16">Fill out the form below to email us</h3>
+</section>
+
+<section>
+<form name = "Contact" method = "post" id = "contact" action = "http://webdevbasics.net/scripts/demo.php">
+	<fieldset>
+		<legend>Customer Contact Information</legend>
+			<label>First Name:<input type = "text" name = "first" id = "first" size = "35"><span>*</span></label><br><br>
+			<label>Last Name:  <input type = "text" name = "last" id = "last" size = "35"><span>*</span></label><br><br>
+			<label>Phone Number:  <input type = "tel" name = "phone" id = "phone" size = "35" placeholder = "xxx-xxx-xxxx"><span>*</span></label><br><br>
+			<label>Email:  <input type = "text" name = "email" id = "email" size = "35"><span>*</span></label><br><br>
+			<label>City: <input type = "text" name = "city" id = "city" size = "35"><span>*</span></label><br><br>
+			<label class = "test18"> Where did you hear about us?
+				<select id = "infosource" width = "25">
+					<option value=""></option>
+					<option value="friend">From a Friend</option>
+					<option value="internet">Internet</option>
+					<option value="paper">News Paper</option>
+					<option value="other">Other</option>
+				</select>
+			</label>
+			
+	</fieldset>
+	
+	<fieldset class = "test17">
+		<legend>Please enter your message here</legend>
+			<label for = "comments"><br>
+			<textarea name="comments" id="comments" rows="8" cols="65" placeholder = "Please type here.."></textarea><br><br>
+			<input class = "mySubmit" id = "mySubmit" type="button" value="Submit">&nbsp;<input class = "mySubmit1" id = "mySubmit1" type="button"value = "Reset">
+	</fieldset>
+</form>
+
+	<h2 id = "registration_header">&nbsp;</h2>
+	<table id = "registration_info"></table>
+	
+
+</section>
+</main>
+<br><br>
+<footer class="myFooter"><!--class selector used multiple times per page-->
+	<!--Phrase Elements or logical style elements such as <strong>, <em>, <small> etc...-->	
+     <p><strong>Copyright &copy; <!-- special character --> 2018 GRP2 Accountants</strong></p>
+     <p><em>Please give us a call at <b>(408)-111-1111</b> or email us at <a href="mailto:grp2accountants.com" title="drop us a line">info@grp2.com </a><br> GRP2 Accountants | 1261 Canyon Street | Livermore, CA 94550 | 408 111 1111</em></p> 
+	<p class = "copyright"><em>Copyright: Fair Use-For Education Purposes Only: Video source:<a href = " https://www.youtube.com/watch?v=XI2gnKVLqPk " target = "_blank">YouTube</a>
+	Content source: <a href= "https://www.ontracaccountants.com.au/" target = "_blank">OnTrac</a> , <a href = "http://www.theorbitgroup.com.au" target = "_blank">Orbit</a> and <a href = "http://www.google.com" target = "_blank">Google</a></em></p>
+	<br class = "clearright">
+</footer>
+
+<!--Fragment identifier is an HTML element assigned to an id attribute-->
+	<h4><i><a href="#top">Back to Top</a></i></h4>
+	
+</body>
+</html>
