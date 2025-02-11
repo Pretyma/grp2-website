@@ -203,7 +203,7 @@ ul.no_bullet	{list-style-type: none;
 				margin: 80px;}
 
 li.phone {
-background: url(photos/phoneclip.png) no-repeat left top;
+background: url(https://pretyma.github.io/grp2-website/phoneclip.png) no-repeat left top;
 background-size: contain;
 display: block;
 height: 45px;
@@ -215,7 +215,7 @@ padding-bottom: 10px;
 	
 
 li.email{
-background: url(photos/email.png) no-repeat left;
+background: url(https://pretyma.github.io/grp2-website/email.png) no-repeat left;
 background-size: contain;
 padding-top: 13px;
 display: block;
@@ -225,7 +225,7 @@ font-family:Verdana, Geneva, sans-serif;
 margin-top: 10px;}
 
 li.hours{
-background: url(photos/open_hours.png) no-repeat left;
+background: url(https://pretyma.github.io/grp2-website/open_hours.png) no-repeat left;
 background-size: contain;
 display: block;
 height: 45px;
