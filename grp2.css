@@ -95,7 +95,7 @@ p		{ color:rgba(48, 52, 56, 1.5);
 		font-family:Verdana, Geneva, sans-serif;
 		font-size: 1.5em;}
 
-.test1	{background-image: url(https://pretyma.github.io/grp2-website/office.jpg);
+.test1	{background-image: url(office.jpg);
 		background-repeat: no-repeat;
 		background-size:100%,100%; 
 		width: 100%;
